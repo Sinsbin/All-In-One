@@ -1,14 +1,20 @@
 
 echo "google install"
 winget install google.Chrome
+echo "skype"
+winget install skype
+echo "anydesk"
+winget install anydesk
 echo "VScode install"
 winget install Microsoft.VisualStudioCode
-echo "VScode Python3.9"
+echo "Python3.9"
 winget install python3.9
-echo "VScode Git"
+echo "NodeJS LTS"   
+winget install OpenJS.NodeJS.LTS
+echo "Git"
 winget install git.git
-echo "VScode Mysql"
+echo "Mysql"
 winget install Oracle.mysql
-echo "VScode mongoDB"
+echo "mongoDB"
 winget install mongodb
 
